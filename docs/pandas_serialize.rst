@@ -66,7 +66,34 @@ The test compares the number of algorithms to serialize different types of data.
   
  Results
 -------------------
-  
+
+1. A total **saving time** of pandas DataFrame split by algorithm and data type
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_by_save_all.png
+
+2. A total **saving size** of pandas DataFrame split by algorithm and data type (stacked and histogram representation)
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_by_size_all.png
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_by_size_all_histogram.png
+
+3. **Categorical data VS text data size** after serialization in KB.
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_text_vs_cat.png
+
+3. **round(Float64,2) VS int(round(Float64,2)*100)** data size after serialization in KB.
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_round.png
+
+4. **Load and Save** for float64 time grouped by algorithm
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_save_load_float.png
+
+5. Check how **linear** seialization of Datarame is.
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_text_line.png
+
+.. image:: https://raw.githubusercontent.com/pykamil/performance/master/docs/img/pandas_serialize_text_save_line.png
 
 
 60+ more charts is available on GitHub_ in zip
