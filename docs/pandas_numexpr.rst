@@ -9,13 +9,13 @@ The test compares how long it takes to do mathematical operations as:
 
 using functions:
 
-- BuildinEval - __buildin__.eval
-- Numpy
-- Numexpr
-- Pandas
-- PandasNumpy - numpy accessed from pandas dataframe - df['X'].values
-- NumexprPandasNumpy - numexpr with PandasNumpy
-- PandasEval - pandas eval
+- **BuildinEval** - __buildin__.eval
+- **Numpy**
+- **Numexpr**
+- **Pandas**
+- **PandasNumpy** - numpy accessed from pandas dataframe - df['X'].values
+- **NumexprPandasNumpy** - numexpr with PandasNumpy
+- **PandasEval** - pandas eval
 
 Data
 -------------------
@@ -31,29 +31,29 @@ Code
 -------------------
 Implementation examples
 
-* Numpy
+* **Numpy**
 
   >>> a*b-4.1*a > 2.5*b
   
-* Numexpr
+* **Numexpr**
 
   >>> ne.evaluate('a*b-4.1*a > 2.5*b')
   
-* Pandas
+* **Pandas**
 
   >>> df['a']*df['b']-4.1*df['a'] > 2.5*df['b']
   
-* PandasNumpy
+* **PandasNumpy**
 
   >>> df['a'].values*df['b'].values-4.1*df['a'].values > 2.5*df['b'].values
   
-* NumexprPandasNumpy
+* **NumexprPandasNumpy**
 
   >>> A = df['a'].values
   >>> B = df['b'].values
   >>> ne.evaluate('A*B-4.1*A > 2.5*B')
   
-* PandasEval
+* **PandasEval**
 
   >>> df.eval('a*b-4.1*a > 2.5*b')
   
