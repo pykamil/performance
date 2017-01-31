@@ -1,0 +1,13 @@
+Container,Operation,Operator,Time
+numpy,div,arithmetic,0.328531027
+list,div,arithmetic,7.029691935
+list2numpy2list,div,arithmetic,2.066708088
+numpy,div,assignment,0.224491835
+list,div,assignment,9.877080917
+list2numpy2list,div,assignment,1.897390127
+numpy,mul,arithmetic,0.075006008
+list,mul,arithmetic,6.907090902
+list2numpy2list,mul,arithmetic,1.839231014
+numpy,mul,assignment,0.080726862
+list,mul,assignment,9.608991861
+list2numpy2list,mul,assignment,1.744124889
