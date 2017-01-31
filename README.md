@@ -1,5 +1,5 @@
 # Performance Tests for Python #
-The repository includes python test and results visualisation 
+The repository includes Python performance tests and results visualisation for:
 * **numpy_assign**
   
   Compares times beteen *Arithmetic Operators* and *Assignment Operators*
