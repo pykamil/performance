@@ -1,8 +1,5 @@
-import os
 import pandas as pd
 import numpy as np
-
-MB = 2**20
 
 def createDataFrame(size):
     df1 = pd.DataFrame(
