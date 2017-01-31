@@ -1,14 +1,9 @@
-"""
-@author: PyLeon
-"""
-
 import pandas as pd
 import numpy as np
 import numexpr as ne
 from time import time
 import gc
 import os
-from pyleon.chart.google.charts import MultipleBarChart
 import argparse
 
 def test_comparison(results):
