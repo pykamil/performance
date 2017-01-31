@@ -1,0 +1,14 @@
+Operation,DataSource,Time
+Comparison,BuildinEval,0.090829909
+Comparison,Numpy,0.090928769
+Comparison,Numexpr,0.01451263
+Comparison,Pandas,0.070789962
+Comparison,PandasNumpy,0.089562318
+Comparison,NumexprPandasNumpy,0.015109198
+Comparison,PandasEval,0.061028931
+Calculation,Numpy,0.740111461
+Calculation,Numexpr,0.19087096
+Calculation,Pandas,0.72302309
+Calculation,PandasNumpy,0.740286541
+Calculation,NumexprPandasNumpy,0.18988348
+Calculation,PandasEval,0.2397208
