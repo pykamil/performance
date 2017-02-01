@@ -54,6 +54,7 @@ DataFrame access time
 >>>    ...: a = np.arange(1e6)
 >>>    ...: df = pd.DataFrame({ 'a' : a,
 >>>    ...:                     'b' : np.array(a, copy=True),
+>>>    ...:                     'c' : np.array(a, copy=True)
 >>>    ...:                     })
 >>>    ...:
 >>> 
