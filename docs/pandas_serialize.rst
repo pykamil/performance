@@ -64,7 +64,7 @@ The test compares the number of algorithms to serialize different types of data.
   * array([  33168,  -49686, ..., 5976,  -92017, -188349], dtype('int32'))
   
   
- Results
+Results
 -------------------
 
 1. A total **saving time** of pandas DataFrame split by algorithm and data type
